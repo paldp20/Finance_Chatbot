@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-experimental
+mysql-connector-python
+pandas
+pandas_market_calendars
+yfinance
+python-dotenv

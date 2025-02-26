@@ -1,0 +1,8 @@
+streamlit
+streamlit-chat
+streamlit-extras
+mysql-connector-python
+openai==0.27.8
+langchain==0.0.225
+
+
