@@ -30,7 +30,7 @@
 #     ports:
 #       - 8501:8501
 #     environment:
-#       - OPENAI_API_KEY="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"
+#       - OPENAI_API_KEY=${OPENAI_API_KEY}
 #     depends_on:
 #       - ticker-fetcher
 
@@ -74,7 +74,7 @@ services:
     ports:
       - "8501:8501"
     environment:
-      OPENAI_API_KEY: "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"
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
     depends_on:
       ticker-fetcher:
         condition: service_completed_successfully

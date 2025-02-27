@@ -13,7 +13,8 @@ DB_NAME = 'tickers_db'
 DB_HOST = 'db'
 DB_PORT = 3306
 # mysql_uri = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-mysql_uri = f"mysql+mysqlconnector://my_user:my_pass@localhost:3306/tickers_db"
+# mysql_uri = f"mysql+mysqlconnector://my_user:my_pass@localhost:3306/tickers_db"
+mysql_uri = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@db:3306/{DB_NAME}"
 
 # Initialize the SQLDatabase and SQLDatabaseToolkit
 db = SQLDatabase.from_uri(mysql_uri)
