@@ -2,7 +2,10 @@ streamlit
 streamlit-chat
 streamlit-extras
 mysql-connector-python
-openai==0.27.8
-langchain==0.0.225
+openai>=1.58.1,<2.0.0
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-openai==0.3.0
 
 
